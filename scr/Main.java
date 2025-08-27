@@ -3,8 +3,8 @@ import taxes.TaxSix;
 
 public class Main {
     public static void main(String[] args) {
-        Company company1 = new Company("Альбатрос", new TaxSix());
-        Company company2 = new Company("Вереск", new TaxFifteen());
+        Company company1 = new Company("Рога и копыта", new TaxSix());
+        Company company2 = new Company("Темп", new TaxFifteen());
 
         company1.shiftMoney(10000);
         company1.shiftMoney(-2000);
